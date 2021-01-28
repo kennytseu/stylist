@@ -1,0 +1,33 @@
+{
+    "name": "kennytseu/stylist",
+    "description": "Laravel theming package.",
+    "authors": [
+        {
+            "name": "Kenny Tseu",
+            "email": "kennytseu@gmail.com"
+        }
+    ],
+    "require": {
+        "php": "^7.2",
+        "laravelcollective/html": "^6.0|^7.0",
+        "illuminate/support": "^6.0|^7.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Kennytseu\\Stylist\\": "src/Stylist"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Kennytseu\\Stylist\\StylistServiceProvider"
+            ]
+        }
+    },
+    "minimum-stability": "stable",
+    "config": {
+        "preferred-install": "dist"
+    },
+    "license": "MIT",
+    "version": "1.0"
+}
